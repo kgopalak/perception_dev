@@ -1,0 +1,3 @@
+
+ADD_EXECUTABLE(test test.cpp)
+TARGET_LINK_LIBRARIES(test cvlib ${PERCEPTION_DEV_LIBS})
